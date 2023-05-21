@@ -1,0 +1,143 @@
+body {
+  background-color: black;
+  width: 25%;
+  margin: 0px auto;
+}
+
+.div-time-and-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.p-time {
+  flex-basis: 49.5%;
+  font-size: 19px;
+  color: white;
+  text-align:left ;
+}
+
+.p-time2 {
+  flex-basis: 49.5%;
+  color: white;
+  text-align:right ;
+}
+
+/*margin: 5%;*/
+
+.button-first-row {
+  border: none;
+  font-family: Helvetica, Arial;
+  font-size: 40px;
+  width: 85px;
+  height: 85px;
+  border-radius: 90%;
+  cursor: pointer;
+
+}
+
+.button-second-row {
+  border: none;
+  background-color:dimgray;
+  color:white;
+  font-family: Helvetica, Arial;  
+  font-size: 40px;
+  width: 85px;
+  height: 85px;
+  border-radius: 90%;
+  cursor: pointer;
+  
+}
+
+.button-third-row {
+  border: none;
+  background-color:dimgray;
+  color:white;
+  font-family: Helvetica, Arial;  
+  font-size: 40px;
+  width: 85px;
+  height: 85px;
+  border-radius: 200%;
+  cursor: pointer;
+}
+
+
+.button-fourth-row {
+  border: none;
+  background-color:dimgray;
+  color:white;
+  font-family: Helvetica, Arial;  
+  font-size: 40px;
+  width: 85px;
+  height: 85px;
+  border-radius: 90%;
+  cursor: pointer;
+}
+
+
+.button-fifth-row {
+  border: none;
+  background-color:dimgray;
+  color:white;
+  font-family: Helvetica, Arial;  
+  font-size: 40px;
+  width: 85px;
+  height: 85px;
+  border-radius: 90%;
+  cursor: pointer;
+}
+
+.button-zero {
+  border: none;
+  background-color:dimgray;
+  font-family: Helvetica, Arial;  
+  text-align: left;
+  padding-left: 35px;
+  font-size: 40px;
+  width: 176px;
+  height: 85px;
+  border-radius: 50px;
+}
+
+.b-gray-color {
+  border: none;
+  background-color:silver;
+  font-size: 40px;
+  width: 85px;
+  height: 85px;
+  border-radius: 90%;
+}
+
+.b-orange-color {
+  background-color: orange;
+  color:white;
+}
+
+.icons {
+  width: 30%;
+  margin: auto;
+  margin-right: 5%;
+}
+
+.p-emptyspace {
+  color: white;
+}
+
+.p-displayedNumber {
+  color: white;
+  text-align: right;
+  float:right;
+  font-size: 50px;
+}
+
+.p-displayedSign {
+  color: white;
+  text-align: right;
+  float:right;
+  font-size: 50px;
+}
+
+.div-result {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+}

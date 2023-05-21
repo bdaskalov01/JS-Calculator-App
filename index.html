@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS Calculator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="div-time-and-icons">    
+      <p class="p-time"></p>
+      <img src="icons.png" class="icons">
+    </div>
+
+    <div class="div-result">
+      <p class="p-displayedNumber">0</p>
+      <p class="p-displayedSign"></p>
+    </div>
+
+    <p></p>
+    <p></p>
+
+
+    <button class = "button-first-row b-gray-color button-clear" onclick="
+    clearButton();
+    ">C</button>
+    <button class = "button-first-row b-gray-color button-plus-minus">+/-</button>
+    <button class = "button-first-row b-gray-color button-percent">%</button>
+    <button class = "button-first-row b-orange-color button-obelus">÷</button>
+
+    <p></p>
+
+    <button class = "button-second-row button-seven" onclick="
+    createNumber(7);
+    ">7</button>
+    <button class = "button-second-row button-eight" onclick="
+    createNumber(8);
+    ">8</button>
+    <button class = "button-second-row button-nine" onclick="
+    createNumber(9);
+    ">9</button>
+    <button class = "button-second-row button-multiply b-orange-color" onclick="
+    multiply();
+    ">×</button>
+
+    <p></p>
+
+    <button class = "button-third-row button-four" onclick="
+    createNumber(4);
+    ">4</button>
+    <button class = "button-third-row button-five" onclick="
+    createNumber(5);
+    ">5</button>
+    <button class = "button-third-row button-six" onclick="
+    createNumber(6);
+    ">6</button>
+    <button class = "button-third-row button-minus b-orange-color" onclick="
+    minus();
+    ">−</button>
+
+    <p></p>
+
+    <button class = "button-fourth-row button-one" onclick="
+    createNumber(1);
+    ">1</button>
+    <button class = "button-fourth-row button-two" onclick="
+    createNumber(2);
+    ">2</button>
+    <button class = "button-fourth-row button-three" onclick="
+    createNumber(3);
+    ">3</button>
+    <button class = "button-fourth-row button-plus b-orange-color" onclick="
+    plus();
+    ">+</button>
+
+    <p></p>
+
+    <button class = "button-fifth-row button-zero" onclick="
+    createNumber(0);
+    ">0</button>
+    <button class = "button-fifth-row button-period">.</button>
+    <button class = "button-fifth-row button-equals b-orange-color" onclick="
+    equals();
+    ">=</button>
+    <script src="script.js"></script>
+  </body>
+</html>
